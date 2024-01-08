@@ -1,9 +1,29 @@
 <template>
   <div class="about">
-    <H1> About</H1>
-    <h3>
-      I`m Simamkele Tancu, a Full-Stack development student at Life Choices Academy.I initially wanted to focus on Front-end development, but now I enjoy full-stack because it allows me to work on all aspects of a project, from start to finish. My goal is to become a Professional full-stack developer, and I plan to achieve this by mastering both front-end and back-end development.
-      In addition to my technical skills, I`m also a great communicator and team paler. I`m comfortable giving presentations and am always eager to learn new things.I`m confident in my ability to adapt to new challenges and am excited to start my career as a full-stack developer.
-    </h3>
+    <H1 class="mb-0"> About Me</H1>
+    <img src="https://drive.google.com/uc?id=1jS45Jq1LDA1ddBO4u2pVwDgkbokxy0Hv" alt="Google Drive Image"    class=" mb-5 img-fluid rounded-bottom-circle" loading="lazy" /> 
+    <h2 v-for="about in About" :key="about">
+     {{ about  }}
+    </h2>
   </div>
 </template>
+
+
+
+<script>
+
+
+export default {
+  computed: {
+    About(){
+      return this.$store.state.about
+    }
+
+  },
+  mounted(){
+    this.$store.dispatch("fetchAbout")
+  }
+}
+</script>
+
+<style></style>
