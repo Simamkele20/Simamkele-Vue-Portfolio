@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-const dataUrl = "https://simamkele20.github.io/PortfolioDatas/data/";
+const dataUrl = "https://simamkele20.github.io/PortfolioDatas/data/   ";
 export default createStore({
   state: {
     jobTitle: null,
@@ -56,6 +56,11 @@ export default createStore({
       let res = await fetch(dataUrl);
       let projects = await res.json();
       context.commit("setProjects", projects.projects);
+    },
+    async fetchTestimonials(context) {
+      let res = await fetch(dataUrl);
+      let testimonials = await res.json();
+      context.commit("setTestimonials", testimonials.testimonials);
     },
   },
   modules: {},
