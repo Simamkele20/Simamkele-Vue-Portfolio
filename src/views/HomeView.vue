@@ -1,13 +1,12 @@
 <template>
   <div>
-    <div class="row   vh-100 justify-content-center align-items-center">
+    <div class="row  d-block d-md-flex vh-100 justify-content-center align-items-center">
       <div class="col ">
         <img src="https://drive.google.com/uc?id=1OhqOSovjtR5aU_PcLzbd3LKFhtfwXfn9" alt="Google Drive Image"
           class=" img-fluid rounded-bottom-circle float-md-start" loading="lazy" />
       </div>
-
       <div class="col-8">
-        <div >
+        <div>
           <h1>
             Hello I`m Simamkele Tancu
           </h1>
@@ -17,26 +16,34 @@
         </div>
       </div>
     </div>
-
-
-
-   
   </div>
-
+  <div>
+    <Spinner />
+  </div>
 </template>
 
 <script>
 
-
+import Spinner from '@/components/Spinner.vue';
 export default {
+  components: {
+    Spinner
+  },
+  data() {
+    return {
+      loading: true,
+    }
+  },
   computed: {
-    jobTittle(){
+    jobTittle() {
       return this.$store.state.jobTitle
     }
 
+
   },
-  mounted(){
+  mounted() {
     this.$store.dispatch("fetchJobTittle")
+
   }
 }
 </script>
