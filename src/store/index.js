@@ -35,13 +35,22 @@ export default createStore({
     async fetchJobTittle(context) {
       let res = await fetch(dataUrl);
       let jobTittle = await res.json();
-      console.log(jobTittle);
       context.commit("setJobTittle", jobTittle.jobTitle[0].title);
     },
     async fetchAbout(context) {
       let res = await fetch(dataUrl);
       let about = await res.json();
       context.commit("setAbout", about.about);
+    },
+    async fetchEducation(context) {
+      let res = await fetch(dataUrl);
+      let education = await res.json();
+      context.commit("setEducation", education.education);
+    },
+    async fetchSkills(context) {
+      let res = await fetch(dataUrl);
+      let skills = await res.json();
+      context.commit("setSkills", skills.skills);
     },
   },
   modules: {},
