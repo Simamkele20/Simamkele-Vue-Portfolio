@@ -52,6 +52,11 @@ export default createStore({
       let skills = await res.json();
       context.commit("setSkills", skills.skills);
     },
+    async fetchProjects(context) {
+      let res = await fetch(dataUrl);
+      let projects = await res.json();
+      context.commit("setProjects", projects.projects);
+    },
   },
   modules: {},
 });

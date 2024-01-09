@@ -14,14 +14,14 @@
                 </div>
             </div>
         </div>
-        <div class="justify-content-center">
+        <div>
             <h1 class="mt-5 text-danger"> Skills</h1>
         </div>
-        <div class="">
+        <div>
             <div class="row">
                 <div class="card w-25 mx-auto  mb-3 " v-for="skills in Skills" :key="skills">
                     <div class="card-body">
-                        <h1 class="card-title ">{{ skills.title }}</h1>
+                        <h1 class="card-title">{{ skills.title }}</h1>
                         <h4 class="card-text">{{ skills.experience }}</h4>
 
                     </div>
