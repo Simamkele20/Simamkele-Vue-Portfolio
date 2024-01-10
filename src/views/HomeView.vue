@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div class="row  d-block d-md-flex vh-100 justify-content-center align-items-center">
+  <div class="container fluid bg-white  ">
+    <div class="row  d-block d-md-flex mb-5 pb-5 mt-5 justify-content-center align-items-center">
       <div class="col ">
         <img src="https://drive.google.com/uc?id=1OhqOSovjtR5aU_PcLzbd3LKFhtfwXfn9" alt="Google Drive Image"
-          class=" img-fluid rounded-bottom-circle float-md-start" loading="lazy" />
+          class="home1 img-fluid rounded-bottom-circle float-md-start" loading="lazy" />
       </div>
       <div class="col-8">
         <div>

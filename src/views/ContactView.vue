@@ -1,6 +1,6 @@
 <template>
-    <div class="about">
-      <h1>Contact Me</h1>
+    <div class="container bg-white mt-5 mb-5">
+      <h1 class="text-danger p-5">Contact Me</h1>
       <div class="contact-wrapper">
 
 <!-- Left contact page -->
