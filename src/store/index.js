@@ -33,34 +33,58 @@ export default createStore({
   },
   actions: {
     async fetchJobTittle(context) {
-      let res = await fetch(dataUrl);
-      let jobTittle = await res.json();
-      context.commit("setJobTittle", jobTittle.jobTitle[0].title);
+      try {
+        let res = await fetch(dataUrl);
+        let jobTittle = await res.json();
+        context.commit("setJobTittle", jobTittle.jobTitle[0].title);
+      } catch (error) {
+        console.log(error);
+      }
     },
     async fetchAbout(context) {
-      let res = await fetch(dataUrl);
-      let about = await res.json();
-      context.commit("setAbout", about.about);
+      try {
+        let res = await fetch(dataUrl);
+        let about = await res.json();
+        context.commit("setAbout", about.about);
+      } catch (error) {
+        console.log(error);
+      }
     },
     async fetchEducation(context) {
-      let res = await fetch(dataUrl);
-      let education = await res.json();
-      context.commit("setEducation", education.education);
+      try {
+        let res = await fetch(dataUrl);
+        let education = await res.json();
+        context.commit("setEducation", education.education);
+      } catch (error) {
+        console.log(error);
+      }
     },
     async fetchSkills(context) {
-      let res = await fetch(dataUrl);
-      let skills = await res.json();
-      context.commit("setSkills", skills.skills);
+      try {
+        let res = await fetch(dataUrl);
+        let skills = await res.json();
+        context.commit("setSkills", skills.skills);
+      } catch (error) {
+        console.log(error);
+      }
     },
     async fetchProjects(context) {
-      let res = await fetch(dataUrl);
-      let projects = await res.json();
-      context.commit("setProjects", projects.projects);
+      try {
+        let res = await fetch(dataUrl);
+        let projects = await res.json();
+        context.commit("setProjects", projects.projects);
+      } catch (error) {
+        console.log(error);
+      }
     },
     async fetchTestimonials(context) {
-      let res = await fetch(dataUrl);
-      let testimonials = await res.json();
-      context.commit("setTestimonials", testimonials.testimonials);
+      try {
+        let res = await fetch(dataUrl);
+        let testimonials = await res.json();
+        context.commit("setTestimonials", testimonials.testimonials);
+      } catch (error) {
+        console.log(error);
+      }
     },
   },
   modules: {},
