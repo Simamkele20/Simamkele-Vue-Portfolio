@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-const dataUrl = "https://simamkele20.github.io/PortfolioDatas/data/   ";
+const dataUrl = "https://simamkele20.github.io/PortfolioDatas/data/";
 export default createStore({
   state: {
     jobTitle: null,
