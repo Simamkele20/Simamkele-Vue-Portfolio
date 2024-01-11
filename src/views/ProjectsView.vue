@@ -1,12 +1,12 @@
 <template>
     <div class="container bg-white">
-        <h1 class="text-danger pb-1">My Projects</h1>
+        <h2 class="text-danger pb-1 mt-3">My Projects</h2>
     </div>
 
     <div class="col">
-        <div class="row  d-grid d-md-flex">
-        <div class="card w-25 mx-5  mt-4 mb-5" v-for="projects in Projects" :key="projects" id="ProjectCard">
-            <img :src="projects.image" class="card-img w-50 mx-auto mt-4  " alt="Pro">
+        <div class="row  d-grid d-md-flex ">
+        <div class="card    mt-4 mb-5" v-for="projects in Projects" :key="projects" id="ProjectCard">
+            <img :src="projects.image" class="card-img-top w-50 mx-auto mt-4  " alt="Pro">
             <div class="card-body">
                 <h2 class="card-title  text-center ">{{ projects.name }}</h2>
                 <h3 class="card-text  text-center">{{ projects.description }}</h3>

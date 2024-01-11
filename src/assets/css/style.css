@@ -16,13 +16,18 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-image: url("https://drive.google.com/uc?id=1qkcBZM0Rsu37tsQ5zaLI46b_1YNo6mir");
+  background-image: url("https://lh3.googleusercontent.com/fife/AGXqzDmOoMy9scIjyMY5W6zpEbYgPps5AHsar3mpH6tyf8PYH4B590lg-a_mod7qbc2XZBMFuKCpDPBhZag0PTkNHgc1B-aOT93EktQLKLJm9MwEa1gCGmHjR4v_SwfaR4Sjg4j8eGlektX8TYgqPt9VexFpW4jpJSg6gwgjAOzQx9FNVSMVv5HIuud49jDw9u6ig5wSohv7XKgfa_s-vx60XAaOtVn7RfBJywZe3QfoDa-3t3j2rfKWka4BtEEwKZa0Ma2ZkC8o2saaOi39_diAemPESuDJv-Bnb9Mu5_gb0rgsHisAEt8pjytFtrCPOoeYwF_QMqzhua4iwdgKThY1SSyiUBSdXgHUKfE3C-S0PB1Rk5Y1r_qON2KgTTF2Dg6QJg2rLKoPjoGOf_wT_DV2Dzouv0wtZkzNQItSILxCG1vv4mwQhl0LS-pXDELUL6giiExjEjNAqRYy1SBq69hBy2ssvmKWT6u4p5wU0TgkWUJo7cRUyl0zKrkltAkgIlo1dhAnOt318zErFxhs162Uj64miP8bQkCqIkm-5YKIuf4ot8cVh4bNa3Plb6A_qfC1f0qV4Lqmf0WBvRXHEnRu2X9_s3ntFliRd8AuO4-K5_ON7h-IGMm1foCgWnaxbGmnrB7-1FlTHK-oQy1oWLN8EcT3aDq171fqCmxUY90Lj0BpwcM9wb3Mntu5wBKIfhxXcewJw1xfeBCNWdlrWgmUFLBKQi5oCvfzOYOQn4xFRoIOmw89XFjj35QCAulaidxLSy6MyijPPeLiUBfKoKXHS5K19SWvXa98T5DynhiZWaxiakkO8UTBE2put3_MidPqlFVq1H8GWmrWfAmrhrBsUUYZ15y5pR9pud5zZDtbJQkQzUXCx-CArR-j7iD3FSXgUneha337zL_1TaSCLop6vNyvbBqB5GyKB8_JHtILIpwY4RqZaIIsNO25evgGKLK66nj-O7uSsgNdIUwiASYYHoBQH7QbbzEgRx4ElHCH152cqBby-vvwFbEkX4rU3gRkHt4r2PLPkXGt_HuwBzedXsAy2fxBeqvrRCg8YRtVv2y-hbfKgwcmqfC4W7zo-F2lk1r6u39qWtg636orCfWiXjxOc0IJKS5-rkRjFMUUaXJjVcJWvGpitml_SQ-el1xlLM0mZDcWyjz93OsUVZ7kDYwSbovDvkeNP6fh0jWIc6mjE4U7yPv2QJGfbKoA59r_G34PCtuPMiCXJZT35s0XDkuonowDfesdNAWwkUzSDc_2bkIBm_WP4aCf82S5tzxNbgdgelOX5lkS4AKq6kMA7ACA4NQOAFXFDuwWVF_5AbIE7ILak_IWzEP6lSlMk7dr9Nyggc7IJELh6rffiRgLcfjK5JZ8gb0Sa8ggQztboDSOEtcUM6PSX88IBZ1lOAVKZ2eU3gxkuR0oYpl57zeFoxiCWAbat022ad9u7kn2J-MavwY-PXJkOGrTyUQcBAZJLm6jdKM3QB5lwg3rtMrff1VPHcjJRgiaC9U1A-AcfvQ_g6Wqxd05MFs=w1003-h892");
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
-
+.navbar {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  transition: transform .2s; 
+ ;
+}
 h2 {
   font-size: 10vmin;
   font-weight: 900;
@@ -33,9 +38,137 @@ h1 {
   font-size: 25vmin;
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
-
+  animation: zoom-in-zoom-out 2s ease-out infinite;
 }
 
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.card-img-top,
+.home2 {
+  aspect-ratio: 1/1;
+}
+
+.home1,
+.home2 {
+  margin-top: 15px;
+  margin-left: 50px;
+
+  box-sizing: border-box;
+  border: 5px white solid;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+#ProjectCard{
+    width: 25%;
+    margin-left: 120px;
+}
+#SkillCard{
+    width: 50%;
+}
+#Navimg{
+    width: 100px;
+}
+
+/* SHIFT */
+nav.navbar ul li a {
+    position:relative;
+    z-index: 1;
+  }
+  nav.navbar ul li a:hover {
+    color: #ffffff;
+    transform: scale(1.3); 
+  }
+  nav.navbar ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #b93636;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  nav.navbar ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+  
+  img{
+    
+        transition: transform .2s; /* Animation */
+      }
+      
+      img:hover {
+        transform: scale(0.9); 
+        cursor:pointer;
+      }
+  
+  
+  
+  /* Keyframes */
+  @-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #333;
+    }
+  }
+  
+  /* Keyframes */
+  @-webkit-keyframes circle {
+    0% {
+      width: 1px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      height: 1px;
+      z-index: -1;
+      background: #eee;
+      border-radius: 100%;
+    }
+    100% {
+      background: #aaa;
+      height: 5000%;
+      width: 5000%;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 0;
+    }
+  }
 
 /*  Contact Content */
 #contact {
@@ -238,6 +371,17 @@ hr {
     height: 60px;
     line-height: 60px;
   }
+  #ProjectCard{
+    width: 75%;
+    margin-left: 35px;
+}
+#SkillCard{
+    width: 78%;
+}
+.home1{
+    margin-left: 2px;
+}
+
 }
 
 @media screen and (max-width: 555px) {
@@ -256,6 +400,7 @@ hr {
   .contact-text {
     margin-left: -1px;
   }
+  
 }
 
 @media screen and (max-width: 412px) {
@@ -265,5 +410,11 @@ hr {
   .contact-text {
     margin-left: -1px;
   }
+  #SkillCard{
+    width: 89%;
 }
+
+
+}
+
 
