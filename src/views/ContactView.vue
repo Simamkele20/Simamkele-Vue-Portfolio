@@ -36,8 +36,8 @@
 
 <div class="direct-contact-container mt-5">
 
-  <ul class="contact-list">
-    <li class="list-item"><i class="bi bi-geo-alt"><span class="contact-text place">Khayelitsha,Cape
+  <ul class="contact-list mb-5">
+    <li class="list-item"><i class="bi bi-geo-alt"><span class="contact-text place">South Africa,Cape
           Town</span></i></li>
 
     <li class="list-item"><i class="bi bi-telephone-fill"><span class="contact-text phone"><a

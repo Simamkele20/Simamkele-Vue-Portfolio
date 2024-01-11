@@ -1,16 +1,17 @@
 <template>
   <div class="container fluid bg-white  ">
-    <div class="row  d-block d-md-flex mb-5 pb-5 mt-5 justify-content-center align-items-center">
+    <div class="row  d-block d-md-flex mb-5 pb-4
+     mt-5 justify-content-center align-items-center">
       <div class="col ">
-        <img src="https://drive.google.com/uc?id=1OhqOSovjtR5aU_PcLzbd3LKFhtfwXfn9" alt="Google Drive Image"
+        <img src="https://lh3.google.com/u/0/d/1OhqOSovjtR5aU_PcLzbd3LKFhtfwXfn9=w2000-h1710-iv1" alt="Google Drive Image"
           class="home1 img-fluid rounded-bottom-circle float-md-start" loading="lazy" />
       </div>
       <div class="col-8">
-        <div>
-          <h1>
+        <div> 
+          <h2 >
             Hello I`m Simamkele Tancu
-          </h1>
-          <h1 class="text-danger">
+          </h2>
+          <h1 class="text-danger" >
             {{ jobTittle }}
           </h1>
         </div>

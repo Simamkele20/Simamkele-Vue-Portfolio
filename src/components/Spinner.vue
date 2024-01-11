@@ -16,7 +16,7 @@
 <style scoped>
 .spinner{
     position: absolute;
-    left: 27% ;
+    left: 30% ;
     bottom: 40%;
 }
 
