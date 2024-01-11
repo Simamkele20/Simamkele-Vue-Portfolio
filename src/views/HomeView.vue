@@ -8,10 +8,10 @@
       </div>
       <div class="col-8">
         <div> 
-          <h2 >
+          <h2  id="home2">
             Hello I`m Simamkele Tancu
           </h2>
-          <h1 class="text-danger" >
+          <h1 class="text-danger"  id="home1">
             {{ jobTittle }}
           </h1>
         </div>
