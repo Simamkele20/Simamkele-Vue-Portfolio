@@ -124,7 +124,7 @@ nav.navbar ul li a {
   
   
   /* Keyframes */
-  @-webkit-keyframes fill {
+  /* @-webkit-keyframes fill {
     0% {
       width: 0%;
       height: 1px;
@@ -166,7 +166,7 @@ nav.navbar ul li a {
       margin: auto;
       border-radius: 0;
     }
-  }
+  } */
 
 /*  Contact Content */
 #contact {
