@@ -29,15 +29,15 @@
  ;
 }
 h2 {
-  font-size: 10vmin;
-  font-weight: 900;
-  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+
 }
 
 h1 {
-  font-size: 25vmin;
-  font-weight: 900;
-  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+
   animation: zoom-in-zoom-out 2s ease-out infinite;
 }
 
@@ -124,7 +124,7 @@ nav.navbar ul li a {
   
   
   /* Keyframes */
-  /* @-webkit-keyframes fill {
+  @-webkit-keyframes fill {
     0% {
       width: 0%;
       height: 1px;
@@ -166,7 +166,7 @@ nav.navbar ul li a {
       margin: auto;
       border-radius: 0;
     }
-  } */
+  }
 
 /*  Contact Content */
 #contact {
