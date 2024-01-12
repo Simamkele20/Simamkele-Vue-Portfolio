@@ -207,7 +207,7 @@ nav.navbar ul li a {
 .form-control,
 textarea {
   max-width: 400px;
-  background-color: #020202ec;
+  background-color: #fff9f9ec;
   color: #000000;
   letter-spacing: 1px;
 }
@@ -428,8 +428,8 @@ hr {
 }
 #home2{
     margin-top: 20px;
-    margin-left:16px;
-    width:15rem;
+    margin-left:27px;
+    width:13rem;
 }
 
 
