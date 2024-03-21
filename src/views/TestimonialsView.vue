@@ -4,7 +4,7 @@
     </div>
 
  <div class="row">
-    <div class="card   mb-5 mt-4 " v-for="testimonials in Testimonials" :key="testimonials" id="ProjectCard">
+    <div class="card mx-5    mb-5 mt-4 " v-for="testimonials in Testimonials" :key="testimonials" id="ProjectCard">
                 <img :src="testimonials.profile" class="home2 rounded-al       mt-4 mx-0" alt="...">
                 <div class="card-body">
                   <h2 class="card-title text-center text-danger ">{{ testimonials.name }} {{ testimonials.surname }} </h2>
