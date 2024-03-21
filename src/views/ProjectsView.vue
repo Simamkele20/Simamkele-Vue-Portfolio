@@ -5,7 +5,7 @@
 
     <div class="col ">
         <div class="row  d-grid d-md-flex ">
-        <div class="card    mt-4 mb-5" v-for="projects in Projects" :key="projects" id="ProjectCard">
+        <div class="card  w-25 mx-5  mt-4 mb-5" v-for="projects in Projects" :key="projects" id="ProjectCard">
             <img :src="projects.image" class="card-img-top w-50 mx-auto mt-4  " alt="Pro">
             <div class="card-body">
                 <h2 class="card-title  text-center text-danger">{{ projects.name }}</h2>
