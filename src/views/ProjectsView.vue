@@ -3,7 +3,7 @@
         <h2 class="text-danger pb-1 mt-3">My Projects</h2>
     </div>
 
-    <div class="col">
+    <div class="col ">
         <div class="row  d-grid d-md-flex ">
         <div class="card    mt-4 mb-5" v-for="projects in Projects" :key="projects" id="ProjectCard">
             <img :src="projects.image" class="card-img-top w-50 mx-auto mt-4  " alt="Pro">

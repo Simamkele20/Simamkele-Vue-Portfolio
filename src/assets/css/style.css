@@ -53,6 +53,9 @@ h1 {
   }
 }
 
+.Home{
+  height: 100vh;
+}
 .card-img-top,
 .home2 {
   aspect-ratio: 1/1;
