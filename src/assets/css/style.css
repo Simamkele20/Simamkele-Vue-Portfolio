@@ -418,6 +418,12 @@ hr {
     margin-left:90px;
     width:18rem;
 }
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+
+  animation:none;
+}
   
 }
 
@@ -440,6 +446,13 @@ hr {
     margin-top: 20px;
     margin-left:27px;
     width:13rem;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+
+  animation:none;
 }
 
 
