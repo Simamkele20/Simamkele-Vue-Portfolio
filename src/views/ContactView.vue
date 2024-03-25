@@ -37,8 +37,8 @@
 <div class="direct-contact-container mt-5">
 
   <ul class="contact-list mb-5">
-    <li class="list-item"><i class="bi bi-geo-alt"><span class="contact-text place">South Africa,Cape
-          Town</span></i></li>
+    <li class="list-item"><i class="bi bi-geo-alt"><span class="contact-text place">Cape
+          Town, Khayelitsha</span></i></li>
 
     <li class="list-item"><i class="bi bi-telephone-fill"><span class="contact-text phone"><a
             href="tel:+27 65 6013 640" title="Give me a call">(+27) 656 013 640</a></span></i></li>

@@ -3,7 +3,7 @@
     <div class=" row  d-block d-md-flex mb-5 pb-4
      mt-5 justify-content-center align-items-center">
       <div class="col " v-if="loading">
-        <img src="https://lh3.google.com/u/0/d/1OhqOSovjtR5aU_PcLzbd3LKFhtfwXfn9=w2000-h1710-iv1" alt="Google Drive Image"
+        <img src="https://i.ibb.co/CVQD72C/DSC-0279-removebg-preview-1.png" alt="Google Drive Image"
           class="home1 img-fluid rounded-bottom-circle float-md-start" loading="lazy" />
       </div>
       <div v-else>
