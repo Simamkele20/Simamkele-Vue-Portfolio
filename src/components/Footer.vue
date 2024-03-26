@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid bg-dark ">
         <div class="row">
-            <p class="lead text-white "> Simamkele`s Portfolio &copy;
+            <p class="mt-3 hea lead text-white "> Simamkele`s Portfolio &copy;
                 <span> {{ currYear }}</span>
             </p>
         </div>
