@@ -1,5 +1,5 @@
 <template>
-    <div class="container bg-white mt-5 mb-5">
+    <div class="container bg-black">
       <h1 class="hea text-danger p-5">Contact Me</h1>
       <div class="contact-wrapper">
 
@@ -34,16 +34,15 @@
 
 <!-- Right contact page -->
 
-<div class="direct-contact-container mt-5">
+<div class="direct-contact-container mt-5 text-white">
 
-  <ul class="contact-list mb-5">
-    <li class="list-item"><i class="bi bi-geo-alt"><span class="contact-text place">Cape
-          Town, Khayelitsha</span></i></li>
+  <ul class="contact-list mb-5 text-white">
+    <li class="list-item text-white"><i class="bi bi-geo-alt text-white"><span class="contact-text place text-white">Khayelitsha, Cape Town</span></i></li>
 
-    <li class="list-item"><i class="bi bi-telephone-fill"><span class="contact-text phone"><a
+    <li class="list-item text-white"><i class="bi bi-telephone-fill"><span class="contact-text phone"><a class=" link-light"
             href="tel:+27 65 6013 640" title="Give me a call">(+27) 656 013 640</a></span></i></li>
 
-    <li class="list-item"><i class="bi bi-envelope"><span class="contact-text gmail"><a href="mailto:Princetancu"
+    <li class="list-item text-white"><i class="bi bi-envelope"><span class="contact-text gmail text-white"><a class=" link-light" href="mailto:Princetancu"
             title="Send me an email">Princetancu06@gmail.com</a></span></i></li>
 
   </ul>
