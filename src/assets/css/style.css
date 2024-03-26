@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Black+Ops+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 /* Universal Selector */
@@ -14,7 +15,6 @@
 
  .proj{
   margin-right:-50px;
-
    
   }
 /* from app */
@@ -24,7 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-image: url("https://lh3.googleusercontent.com/fife/AGXqzDmOoMy9scIjyMY5W6zpEbYgPps5AHsar3mpH6tyf8PYH4B590lg-a_mod7qbc2XZBMFuKCpDPBhZag0PTkNHgc1B-aOT93EktQLKLJm9MwEa1gCGmHjR4v_SwfaR4Sjg4j8eGlektX8TYgqPt9VexFpW4jpJSg6gwgjAOzQx9FNVSMVv5HIuud49jDw9u6ig5wSohv7XKgfa_s-vx60XAaOtVn7RfBJywZe3QfoDa-3t3j2rfKWka4BtEEwKZa0Ma2ZkC8o2saaOi39_diAemPESuDJv-Bnb9Mu5_gb0rgsHisAEt8pjytFtrCPOoeYwF_QMqzhua4iwdgKThY1SSyiUBSdXgHUKfE3C-S0PB1Rk5Y1r_qON2KgTTF2Dg6QJg2rLKoPjoGOf_wT_DV2Dzouv0wtZkzNQItSILxCG1vv4mwQhl0LS-pXDELUL6giiExjEjNAqRYy1SBq69hBy2ssvmKWT6u4p5wU0TgkWUJo7cRUyl0zKrkltAkgIlo1dhAnOt318zErFxhs162Uj64miP8bQkCqIkm-5YKIuf4ot8cVh4bNa3Plb6A_qfC1f0qV4Lqmf0WBvRXHEnRu2X9_s3ntFliRd8AuO4-K5_ON7h-IGMm1foCgWnaxbGmnrB7-1FlTHK-oQy1oWLN8EcT3aDq171fqCmxUY90Lj0BpwcM9wb3Mntu5wBKIfhxXcewJw1xfeBCNWdlrWgmUFLBKQi5oCvfzOYOQn4xFRoIOmw89XFjj35QCAulaidxLSy6MyijPPeLiUBfKoKXHS5K19SWvXa98T5DynhiZWaxiakkO8UTBE2put3_MidPqlFVq1H8GWmrWfAmrhrBsUUYZ15y5pR9pud5zZDtbJQkQzUXCx-CArR-j7iD3FSXgUneha337zL_1TaSCLop6vNyvbBqB5GyKB8_JHtILIpwY4RqZaIIsNO25evgGKLK66nj-O7uSsgNdIUwiASYYHoBQH7QbbzEgRx4ElHCH152cqBby-vvwFbEkX4rU3gRkHt4r2PLPkXGt_HuwBzedXsAy2fxBeqvrRCg8YRtVv2y-hbfKgwcmqfC4W7zo-F2lk1r6u39qWtg636orCfWiXjxOc0IJKS5-rkRjFMUUaXJjVcJWvGpitml_SQ-el1xlLM0mZDcWyjz93OsUVZ7kDYwSbovDvkeNP6fh0jWIc6mjE4U7yPv2QJGfbKoA59r_G34PCtuPMiCXJZT35s0XDkuonowDfesdNAWwkUzSDc_2bkIBm_WP4aCf82S5tzxNbgdgelOX5lkS4AKq6kMA7ACA4NQOAFXFDuwWVF_5AbIE7ILak_IWzEP6lSlMk7dr9Nyggc7IJELh6rffiRgLcfjK5JZ8gb0Sa8ggQztboDSOEtcUM6PSX88IBZ1lOAVKZ2eU3gxkuR0oYpl57zeFoxiCWAbat022ad9u7kn2J-MavwY-PXJkOGrTyUQcBAZJLm6jdKM3QB5lwg3rtMrff1VPHcjJRgiaC9U1A-AcfvQ_g6Wqxd05MFs=w1003-h892");
+  background-image: url("https://i.ibb.co/k8SgXgF/istockphoto-888236186-1024x1024-transformed.jpg");
 }
 
 ::-webkit-scrollbar {
@@ -67,13 +67,21 @@ h1 {
 .card-img-top,
 .home2 {
   aspect-ratio: 1/1;
+  
 }
-
+#home1,
+#home2{
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .home1,
 .home2 {
   margin-top: 15px;
   margin-left: 50px;
-
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   box-sizing: border-box;
   border: 5px white solid;
   border-radius: 50%;
@@ -195,6 +203,11 @@ nav.navbar ul li a {
   color: #000000;
   text-transform: uppercase;
   letter-spacing: 6px;
+}
+.hea{
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .contact-wrapper {
@@ -420,9 +433,6 @@ hr {
     width:18rem;
 }
 h1 {
-  font-size: 50px;
-  font-weight: 300;
-
   animation:none;
 }
   
@@ -449,7 +459,9 @@ h1 {
     width:13rem;
 }
 
-
+h1 {
+  animation:none;
+}
 
 
 
