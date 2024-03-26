@@ -69,12 +69,6 @@ h1 {
   aspect-ratio: 1/1;
   
 }
-#home1,
-#home2{
-  font-family: "Black Han Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 .home1,
 .home2 {
   margin-top: 15px;
@@ -204,11 +198,7 @@ nav.navbar ul li a {
   text-transform: uppercase;
   letter-spacing: 6px;
 }
-.hea{
-  font-family: "Black Han Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
 
 .contact-wrapper {
   display: flex;
