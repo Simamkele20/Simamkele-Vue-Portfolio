@@ -1,7 +1,7 @@
 
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 /* Universal Selector */
 *,
 *::before,
@@ -38,14 +38,21 @@
 h2 {
   font-size: 50px;
   font-weight: 300;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 50px;
   font-weight: 300;
-
   animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
 }
 
 @keyframes zoom-in-zoom-out {

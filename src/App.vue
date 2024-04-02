@@ -1,11 +1,10 @@
 <template>
- 
- <navbar />
- <main class="container ">
-  <router-view />
+  <navbar />
+  <main class="container ">
+    <router-view />
   </main>
 
- <Footer />
+  <Footer />
 </template>
 
 <script>
@@ -14,13 +13,12 @@ import navbar from './components/navbar.vue';
 
 
 
-export default{
-  components:{
-    navbar,Footer
-    
-}
+export default {
+  components: {
+    navbar, Footer
+
+  }
 }
 </script>
 
-<style  src="@/assets/css/style.css">
-</style>
+<style  src="@/assets/css/style.css"></style>
