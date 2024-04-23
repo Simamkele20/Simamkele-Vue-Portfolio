@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-black  pb-5">
+  <div class="container  pb-5">
     <H1 class=" mb-0 text-danger   p-5">Profile</H1>
     <div class="col d-block d-md-flex">
       <img src="https://i.ibb.co/dg3pmsj/AGXqz-Dm1-PCZQku-Zfro9-Khe2-AXFk-Pxc-I6od-H0j8-JVE6-Hydsx-BGNo-Fmon-R2-Pb-N-5el-Dv-Mv-Xk1-f-N1-IUPZV.png" alt="Google Drive Image"    class="home1  mb-5 img-fluid rounded-bottom-circle bg-white" loading="lazy" /> 

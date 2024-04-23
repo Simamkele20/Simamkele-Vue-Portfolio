@@ -1,9 +1,9 @@
 <template>
-    <div class="container-fluid bg-black border-5 border-danger">
+    <div class="container-fluid bg-transparent border-5 border-danger">
         <div class="row">
-            <p class="mt-3 hea lead text-danger "> Simamkele`s Portfolio &copy;
+            <h2 class="mt-3 hea lead text-white "> Simamkele`s Portfolio &copy;
                 <span> {{ currYear }}</span>
-            </p>
+            </h2>
         </div>
     </div>
 </template>

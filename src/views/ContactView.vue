@@ -1,5 +1,5 @@
 <template>
-    <div class="container bg-black">
+    <div class="container ">
       <h1 class="hea text-danger p-5">Contact Me</h1>
       <div class="contact-wrapper">
 

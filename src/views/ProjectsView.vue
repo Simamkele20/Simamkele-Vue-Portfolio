@@ -1,10 +1,10 @@
 <template>
 
 
-    <div class="col bg-black">
+    <div class="col ">
         <h2 class="hea text-danger">My Projects</h2>
         <div class="row  d-grid d-md-flex ">
-        <div class="proj border border-3 border-danger card bg-black   mt-4 mb-5" v-for="projects in Projects" :key="projects" id="ProjectCard">
+        <div class="proj border border-3 border-danger card bg-transparent   mt-4 mb-5" v-for="projects in Projects" :key="projects" id="ProjectCard">
             <img :src="projects.image" class="card-img-top w-50 mx-auto mt-4  " alt="Pro">
             <div class="card-body">
                 <h2 class="hea card-title  text-center text-danger">{{ projects.name }}</h2>

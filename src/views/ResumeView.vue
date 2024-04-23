@@ -1,5 +1,5 @@
 <template>
-    <div class="container bg-black ">
+    <div class="container ">
         <div class="container " id="Education">
             <div class="heading3 text-center p-4">
                 <h2 class="hea text-danger mt-3 border-3 border-danger" >Education</h2>
@@ -18,8 +18,8 @@
             <h2 class="hea mt-5 text-danger mb-3"> Skills</h2>
         </div>
         <div>
-            <div class="row bg-black">
-                <div class="card bg-black  d-flex d-md-grid mx-auto mt-5 border border-3 border-danger mb-5 " v-for="skills in Skills" :key="skills" id="SkillCard">
+            <div class="row ">
+                <div class="card bg-transparent  d-flex d-md-grid mx-auto mt-5 border border-3 border-danger mb-5 " v-for="skills in Skills" :key="skills" id="SkillCard">
                     <div class="card-body ">
                         <h2 class="hea card-title mt-3 text-danger">{{ skills.title }}</h2>
                         <h4 class="card-text text-white ">{{ skills.experience }}</h4>

@@ -1,5 +1,5 @@
 <template>
-  <div class="Home bg-black  container-fluid     ">
+  <div class="Home   container-fluid     ">
     <div class=" row  d-block d-md-flex mb-5 pb-4 
      justify-content-center align-items-center">
       <div class="col " v-if="loading">

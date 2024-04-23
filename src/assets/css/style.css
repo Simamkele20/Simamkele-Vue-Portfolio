@@ -27,7 +27,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-image: url("https://i.ibb.co/k8SgXgF/istockphoto-888236186-1024x1024-transformed.jpg");
+
+  background-image:  linear-gradient(rgba(2, 2, 2, 0.5), rgba(2, 2, 0, 0.5)), url("https://i.ibb.co/k8SgXgF/istockphoto-888236186-1024x1024-transformed.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
 
 ::-webkit-scrollbar {
